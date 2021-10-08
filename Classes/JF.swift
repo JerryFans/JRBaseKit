@@ -4,14 +4,14 @@
 //
 //  Created by JerryFans on 2021/8/4.
 //
-struct JF<Base> {
+public struct JF<Base> {
     let base: Base
     init(_ base: Base) {
         self.base = base
     }
 }
 
-protocol JFCompatible {}
+public protocol JFCompatible {}
 extension JFCompatible {
     static var jf: JF<Self>.Type {
         set {}
