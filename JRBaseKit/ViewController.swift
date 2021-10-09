@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.jf.argb(0x7e7eff)
+        print("navi height \(CGFloat.jf.navigationBarHeight()), status bar height: \(CGFloat.jf.statusBarHeight())")
+        print("safeArea: \(CGFloat.jf.safeAreaInsets()), bottom: \(CGFloat.jf.safeAreaBottomHeight())")
+        print("isBangs \(Bool.jf.isBangsiPhone())")
         // Do any additional setup after loading the view.
     }
 
