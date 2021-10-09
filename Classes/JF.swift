@@ -12,7 +12,7 @@ public struct JF<Base> {
 }
 
 public protocol JFCompatible {}
-extension JFCompatible {
+public extension JFCompatible {
     static var jf: JF<Self>.Type {
         set {}
         get { JF<Self>.self }

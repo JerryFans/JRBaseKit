@@ -7,7 +7,7 @@
 
 import UIKit
 extension CGSize: JFCompatible {}
-extension JF where Base == CGSize {
+public extension JF where Base == CGSize {
     
     static func screenBounds() -> CGRect {
         return UIScreen.main.bounds
