@@ -8,7 +8,7 @@ import UIKit
 import Foundation
 
 extension UIView: JFCompatible {}
-extension JF where Base: UIView {
+public extension JF where Base: UIView {
 
     var top: CGFloat {
         get { return base.jf_top }
