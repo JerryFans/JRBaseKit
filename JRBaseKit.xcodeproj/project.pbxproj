@@ -18,6 +18,7 @@
 		B429B72B27104F3700D407EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B429B72927104F3700D407EE /* LaunchScreen.storyboard */; };
 		B429B73627104F3700D407EE /* JRBaseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B429B73527104F3700D407EE /* JRBaseKitTests.swift */; };
 		B429B74127104F3700D407EE /* JRBaseKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B429B74027104F3700D407EE /* JRBaseKitUITests.swift */; };
+		B43A080B2712982C00DB5D01 /* UIView+JFRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43A080A2712982C00DB5D01 /* UIView+JFRect.swift */; };
 		B4ADB96E271050300041A68D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB96A271050300041A68D /* UIColor+Extension.swift */; };
 		B4ADB96F271050300041A68D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B4ADB96B271050300041A68D /* .gitkeep */; };
 		B4ADB970271050300041A68D /* JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB96C271050300041A68D /* JF.swift */; };
@@ -62,11 +63,12 @@
 		B429B73C27104F3700D407EE /* JRBaseKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRBaseKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B429B74027104F3700D407EE /* JRBaseKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRBaseKitUITests.swift; sourceTree = "<group>"; };
 		B429B74227104F3700D407EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43A080A2712982C00DB5D01 /* UIView+JFRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+JFRect.swift"; sourceTree = "<group>"; };
 		B4ADB96A271050300041A68D /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		B4ADB96B271050300041A68D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		B4ADB96C271050300041A68D /* JF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JF.swift; sourceTree = "<group>"; };
 		B4ADB96D271050300041A68D /* Size+Extenison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Size+Extenison.swift"; sourceTree = "<group>"; };
-		B4ADB972271050370041A68D /* JRBaseKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = JRBaseKit.podspec; sourceTree = SOURCE_ROOT; };
+		B4ADB972271050370041A68D /* JRBaseKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = JRBaseKit.podspec; sourceTree = SOURCE_ROOT; };
 		CF88B6A3DB7B866CC5850121 /* Pods-JRBaseKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRBaseKitTests.release.xcconfig"; path = "Target Support Files/Pods-JRBaseKitTests/Pods-JRBaseKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		E22C739234865F132E2121A1 /* Pods-JRBaseKit-JRBaseKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRBaseKit-JRBaseKitUITests.release.xcconfig"; path = "Target Support Files/Pods-JRBaseKit-JRBaseKitUITests/Pods-JRBaseKit-JRBaseKitUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EEB23DD17D81A0E46AF55C07 /* Pods_JRBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +189,7 @@
 				B4ADB96B271050300041A68D /* .gitkeep */,
 				B4ADB96C271050300041A68D /* JF.swift */,
 				B4ADB96D271050300041A68D /* Size+Extenison.swift */,
+				B43A080A2712982C00DB5D01 /* UIView+JFRect.swift */,
 			);
 			path = Classes;
 			sourceTree = SOURCE_ROOT;
@@ -401,6 +404,7 @@
 				B429B72127104F3600D407EE /* SceneDelegate.swift in Sources */,
 				B4ADB970271050300041A68D /* JF.swift in Sources */,
 				B4ADB96E271050300041A68D /* UIColor+Extension.swift in Sources */,
+				B43A080B2712982C00DB5D01 /* UIView+JFRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

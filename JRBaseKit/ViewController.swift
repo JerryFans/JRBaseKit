@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         print("navi height \(CGFloat.jf.navigationBarHeight()), status bar height: \(CGFloat.jf.statusBarHeight())")
         print("safeArea: \(CGFloat.jf.safeAreaInsets()), bottom: \(CGFloat.jf.safeAreaBottomHeight())")
         print("isBangs \(Bool.jf.isBangsiPhone())")
+        print("top:\(self.view.jf.top)")
         // Do any additional setup after loading the view.
     }
 
