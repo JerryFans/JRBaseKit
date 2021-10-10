@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JRBaseKit'
-  s.version          = '0.8.0'
+  s.version          = '0.9.0'
   s.summary          = 'Base Value In iOS'
 
 # This description is used to generate tags and improve search results.
@@ -32,13 +32,13 @@ Pod::Spec.new do |s|
   
   s.swift_version = ['4.0']
   
-  s.static_framework = true
+  # s.static_framework = true
   
   # s.resource_bundles = {
   #   'JRBaseKit' => ['JRBaseKit/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-    s.frameworks = 'UIKit'
+  # s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
