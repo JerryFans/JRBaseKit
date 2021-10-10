@@ -62,7 +62,7 @@ public extension JF where Base: UIView {
 }
 
 //MARK: - For OC
-extension UIView {
+public extension UIView {
     @objc var jf_top: CGFloat {
         get {
             return self.frame.origin.y
