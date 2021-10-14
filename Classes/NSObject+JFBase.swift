@@ -11,15 +11,13 @@ import UIKit
 extension NSObject: JFCompatible {}
 public extension JF where Base: NSObject {
     
+    @available(iOS 10.0, *)
     static func shake() {
-        if #available(iOS 10, *) {
-            UISelectionFeedbackGenerator().selectionChanged()
-        }
+        UISelectionFeedbackGenerator().selectionChanged()
     }
     
+    @available(iOS 10.0, *)
     func shake() {
-        if #available(iOS 10, *) {
-            UISelectionFeedbackGenerator().selectionChanged()
-        }
+        UISelectionFeedbackGenerator().selectionChanged()
     }
 }
