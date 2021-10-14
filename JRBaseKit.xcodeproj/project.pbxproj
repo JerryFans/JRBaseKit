@@ -20,6 +20,7 @@
 		B429B74127104F3700D407EE /* JRBaseKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B429B74027104F3700D407EE /* JRBaseKitUITests.swift */; };
 		B43A080B2712982C00DB5D01 /* UIView+JFRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43A080A2712982C00DB5D01 /* UIView+JFRect.swift */; };
 		B43A080D2712A74D00DB5D01 /* UIImage+JFColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43A080C2712A74D00DB5D01 /* UIImage+JFColor.swift */; };
+		B4438FCF27183E5F0010F343 /* NSObject+JFBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4438FCE27183E5F0010F343 /* NSObject+JFBase.swift */; };
 		B4ADB96E271050300041A68D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB96A271050300041A68D /* UIColor+Extension.swift */; };
 		B4ADB96F271050300041A68D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B4ADB96B271050300041A68D /* .gitkeep */; };
 		B4ADB970271050300041A68D /* JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB96C271050300041A68D /* JF.swift */; };
@@ -66,6 +67,7 @@
 		B429B74227104F3700D407EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B43A080A2712982C00DB5D01 /* UIView+JFRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+JFRect.swift"; sourceTree = "<group>"; };
 		B43A080C2712A74D00DB5D01 /* UIImage+JFColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+JFColor.swift"; sourceTree = "<group>"; };
+		B4438FCE27183E5F0010F343 /* NSObject+JFBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+JFBase.swift"; sourceTree = "<group>"; };
 		B4ADB96A271050300041A68D /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		B4ADB96B271050300041A68D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		B4ADB96C271050300041A68D /* JF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JF.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				B4ADB96D271050300041A68D /* Size+Extenison.swift */,
 				B43A080A2712982C00DB5D01 /* UIView+JFRect.swift */,
 				B43A080C2712A74D00DB5D01 /* UIImage+JFColor.swift */,
+				B4438FCE27183E5F0010F343 /* NSObject+JFBase.swift */,
 			);
 			path = Classes;
 			sourceTree = SOURCE_ROOT;
@@ -405,6 +408,7 @@
 				B429B71F27104F3600D407EE /* AppDelegate.swift in Sources */,
 				B4ADB971271050300041A68D /* Size+Extenison.swift in Sources */,
 				B43A080D2712A74D00DB5D01 /* UIImage+JFColor.swift in Sources */,
+				B4438FCF27183E5F0010F343 /* NSObject+JFBase.swift in Sources */,
 				B429B72127104F3600D407EE /* SceneDelegate.swift in Sources */,
 				B4ADB970271050300041A68D /* JF.swift in Sources */,
 				B4ADB96E271050300041A68D /* UIColor+Extension.swift in Sources */,

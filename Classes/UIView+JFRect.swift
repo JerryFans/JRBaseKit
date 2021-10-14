@@ -5,9 +5,7 @@
 //  Created by 逸风 on 2021/10/10.
 //
 import UIKit
-import Foundation
 
-extension UIView: JFCompatible {}
 public extension JF where Base: UIView {
 
     var top: CGFloat {

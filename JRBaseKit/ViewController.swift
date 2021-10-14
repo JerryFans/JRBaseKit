@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         print("safeArea: \(CGFloat.jf.safeAreaInsets()), bottom: \(CGFloat.jf.safeAreaBottomHeight())")
         print("isBangs \(Bool.jf.isBangsiPhone())")
         print("top:\(self.view.jf.top)")
+        self.jf.shake()
         // Do any additional setup after loading the view.
     }
 
