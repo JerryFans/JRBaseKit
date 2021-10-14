@@ -189,10 +189,10 @@
 		B4ADB969271050300041A68D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B4ADB96A271050300041A68D /* UIColor+Extension.swift */,
 				B4ADB96B271050300041A68D /* .gitkeep */,
 				B4ADB96C271050300041A68D /* JF.swift */,
 				B4ADB96D271050300041A68D /* Size+Extenison.swift */,
+				B4ADB96A271050300041A68D /* UIColor+Extension.swift */,
 				B43A080A2712982C00DB5D01 /* UIView+JFRect.swift */,
 				B43A080C2712A74D00DB5D01 /* UIImage+JFColor.swift */,
 				B4438FCE27183E5F0010F343 /* NSObject+JFBase.swift */,
