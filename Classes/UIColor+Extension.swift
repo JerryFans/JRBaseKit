@@ -6,6 +6,7 @@
 //
 
 import UIKit
+extension UIColor: JFCompatible {}
 public extension JF where Base: UIColor {
     //0xRRGGBB
     static func rgb(_ hex:UInt32, alpha:CGFloat = 1.0) -> UIColor {

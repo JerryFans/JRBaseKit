@@ -7,6 +7,7 @@
 
 import UIKit
 
+extension UIImage: JFCompatible {}
 public extension JF where Base: UIImage {
     static func color(_ hex:UInt32, alpha:CGFloat = 1.0) -> UIImage {
         return UIImage(customColor: UIColor.jf.rgb(hex, alpha: alpha))
