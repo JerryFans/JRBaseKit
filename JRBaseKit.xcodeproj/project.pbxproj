@@ -10,6 +10,11 @@
 		353EF799624AA4D84A100FBC /* Pods_JRBaseKit_JRBaseKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0147E5B4ACF368DA42D2E5 /* Pods_JRBaseKit_JRBaseKitUITests.framework */; };
 		52B936CE64EED6DC284C78D0 /* Pods_JRBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB23DD17D81A0E46AF55C07 /* Pods_JRBaseKit.framework */; };
 		A6AB9DF90A0875AE2B6A24F8 /* Pods_JRBaseKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0E62C9B099E00A46599273 /* Pods_JRBaseKitTests.framework */; };
+		B420C8832AA3BA7F002216FA /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420C87E2AA3BA7F002216FA /* UIColor+Extension.swift */; };
+		B420C8842AA3BA7F002216FA /* UIView+JFRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420C87F2AA3BA7F002216FA /* UIView+JFRect.swift */; };
+		B420C8852AA3BA7F002216FA /* UIImage+JFColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420C8802AA3BA7F002216FA /* UIImage+JFColor.swift */; };
+		B420C8862AA3BA7F002216FA /* JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420C8812AA3BA7F002216FA /* JF.swift */; };
+		B420C8872AA3BA7F002216FA /* Size+Extenison.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420C8822AA3BA7F002216FA /* Size+Extenison.swift */; };
 		B429B71F27104F3600D407EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B429B71E27104F3600D407EE /* AppDelegate.swift */; };
 		B429B72127104F3600D407EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B429B72027104F3600D407EE /* SceneDelegate.swift */; };
 		B429B72327104F3600D407EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B429B72227104F3600D407EE /* ViewController.swift */; };
@@ -18,12 +23,6 @@
 		B429B72B27104F3700D407EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B429B72927104F3700D407EE /* LaunchScreen.storyboard */; };
 		B429B73627104F3700D407EE /* JRBaseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B429B73527104F3700D407EE /* JRBaseKitTests.swift */; };
 		B429B74127104F3700D407EE /* JRBaseKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B429B74027104F3700D407EE /* JRBaseKitUITests.swift */; };
-		B43A080B2712982C00DB5D01 /* UIView+JFRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43A080A2712982C00DB5D01 /* UIView+JFRect.swift */; };
-		B43A080D2712A74D00DB5D01 /* UIImage+JFColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43A080C2712A74D00DB5D01 /* UIImage+JFColor.swift */; };
-		B4ADB96E271050300041A68D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB96A271050300041A68D /* UIColor+Extension.swift */; };
-		B4ADB96F271050300041A68D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B4ADB96B271050300041A68D /* .gitkeep */; };
-		B4ADB970271050300041A68D /* JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB96C271050300041A68D /* JF.swift */; };
-		B4ADB971271050300041A68D /* Size+Extenison.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB96D271050300041A68D /* Size+Extenison.swift */; };
 		B4ADB973271050370041A68D /* JRBaseKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B4ADB972271050370041A68D /* JRBaseKit.podspec */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +49,11 @@
 		4D5DB5B68F99AADFED374F13 /* Pods-JRBaseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRBaseKit.release.xcconfig"; path = "Target Support Files/Pods-JRBaseKit/Pods-JRBaseKit.release.xcconfig"; sourceTree = "<group>"; };
 		7E0147E5B4ACF368DA42D2E5 /* Pods_JRBaseKit_JRBaseKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRBaseKit_JRBaseKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4736C4D25D1D443D5D3A47 /* Pods-JRBaseKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRBaseKitTests.debug.xcconfig"; path = "Target Support Files/Pods-JRBaseKitTests/Pods-JRBaseKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B420C87E2AA3BA7F002216FA /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		B420C87F2AA3BA7F002216FA /* UIView+JFRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+JFRect.swift"; sourceTree = "<group>"; };
+		B420C8802AA3BA7F002216FA /* UIImage+JFColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+JFColor.swift"; sourceTree = "<group>"; };
+		B420C8812AA3BA7F002216FA /* JF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JF.swift; sourceTree = "<group>"; };
+		B420C8822AA3BA7F002216FA /* Size+Extenison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Size+Extenison.swift"; sourceTree = "<group>"; };
 		B429B71B27104F3600D407EE /* JRBaseKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRBaseKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B429B71E27104F3600D407EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B429B72027104F3600D407EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,12 +68,6 @@
 		B429B73C27104F3700D407EE /* JRBaseKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRBaseKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B429B74027104F3700D407EE /* JRBaseKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRBaseKitUITests.swift; sourceTree = "<group>"; };
 		B429B74227104F3700D407EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B43A080A2712982C00DB5D01 /* UIView+JFRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+JFRect.swift"; sourceTree = "<group>"; };
-		B43A080C2712A74D00DB5D01 /* UIImage+JFColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+JFColor.swift"; sourceTree = "<group>"; };
-		B4ADB96A271050300041A68D /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		B4ADB96B271050300041A68D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		B4ADB96C271050300041A68D /* JF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JF.swift; sourceTree = "<group>"; };
-		B4ADB96D271050300041A68D /* Size+Extenison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Size+Extenison.swift"; sourceTree = "<group>"; };
 		B4ADB972271050370041A68D /* JRBaseKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = JRBaseKit.podspec; sourceTree = SOURCE_ROOT; };
 		CF88B6A3DB7B866CC5850121 /* Pods-JRBaseKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRBaseKitTests.release.xcconfig"; path = "Target Support Files/Pods-JRBaseKitTests/Pods-JRBaseKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		E22C739234865F132E2121A1 /* Pods-JRBaseKit-JRBaseKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRBaseKit-JRBaseKitUITests.release.xcconfig"; path = "Target Support Files/Pods-JRBaseKit-JRBaseKitUITests/Pods-JRBaseKit-JRBaseKitUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +126,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B420C87D2AA3BA7F002216FA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B420C87E2AA3BA7F002216FA /* UIColor+Extension.swift */,
+				B420C87F2AA3BA7F002216FA /* UIView+JFRect.swift */,
+				B420C8802AA3BA7F002216FA /* UIImage+JFColor.swift */,
+				B420C8812AA3BA7F002216FA /* JF.swift */,
+				B420C8822AA3BA7F002216FA /* Size+Extenison.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
 		B429B71227104F3600D407EE = {
 			isa = PBXGroup;
 			children = (
@@ -154,7 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				B4ADB972271050370041A68D /* JRBaseKit.podspec */,
-				B4ADB969271050300041A68D /* Classes */,
+				B420C87D2AA3BA7F002216FA /* Sources */,
 				B429B71E27104F3600D407EE /* AppDelegate.swift */,
 				B429B72027104F3600D407EE /* SceneDelegate.swift */,
 				B429B72227104F3600D407EE /* ViewController.swift */,
@@ -183,19 +193,6 @@
 			);
 			path = JRBaseKitUITests;
 			sourceTree = "<group>";
-		};
-		B4ADB969271050300041A68D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B4ADB96B271050300041A68D /* .gitkeep */,
-				B4ADB96C271050300041A68D /* JF.swift */,
-				B4ADB96D271050300041A68D /* Size+Extenison.swift */,
-				B4ADB96A271050300041A68D /* UIColor+Extension.swift */,
-				B43A080A2712982C00DB5D01 /* UIView+JFRect.swift */,
-				B43A080C2712A74D00DB5D01 /* UIImage+JFColor.swift */,
-			);
-			path = Classes;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -307,7 +304,6 @@
 				B429B72827104F3700D407EE /* Assets.xcassets in Resources */,
 				B4ADB973271050370041A68D /* JRBaseKit.podspec in Resources */,
 				B429B72627104F3600D407EE /* Main.storyboard in Resources */,
-				B4ADB96F271050300041A68D /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,14 +397,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B420C8842AA3BA7F002216FA /* UIView+JFRect.swift in Sources */,
 				B429B72327104F3600D407EE /* ViewController.swift in Sources */,
+				B420C8872AA3BA7F002216FA /* Size+Extenison.swift in Sources */,
 				B429B71F27104F3600D407EE /* AppDelegate.swift in Sources */,
-				B4ADB971271050300041A68D /* Size+Extenison.swift in Sources */,
-				B43A080D2712A74D00DB5D01 /* UIImage+JFColor.swift in Sources */,
+				B420C8852AA3BA7F002216FA /* UIImage+JFColor.swift in Sources */,
+				B420C8862AA3BA7F002216FA /* JF.swift in Sources */,
 				B429B72127104F3600D407EE /* SceneDelegate.swift in Sources */,
-				B4ADB970271050300041A68D /* JF.swift in Sources */,
-				B4ADB96E271050300041A68D /* UIColor+Extension.swift in Sources */,
-				B43A080B2712982C00DB5D01 /* UIView+JFRect.swift in Sources */,
+				B420C8832AA3BA7F002216FA /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
