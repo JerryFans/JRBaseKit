@@ -24,6 +24,7 @@
 		B429B73627104F3700D407EE /* JRBaseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B429B73527104F3700D407EE /* JRBaseKitTests.swift */; };
 		B429B74127104F3700D407EE /* JRBaseKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B429B74027104F3700D407EE /* JRBaseKitUITests.swift */; };
 		B4ADB973271050370041A68D /* JRBaseKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B4ADB972271050370041A68D /* JRBaseKit.podspec */; };
+		B4C0F54E2AD1C1AE00293042 /* UIView+JFSnapShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C0F54D2AD1C1AE00293042 /* UIView+JFSnapShot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		B429B74027104F3700D407EE /* JRBaseKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRBaseKitUITests.swift; sourceTree = "<group>"; };
 		B429B74227104F3700D407EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4ADB972271050370041A68D /* JRBaseKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = JRBaseKit.podspec; sourceTree = SOURCE_ROOT; };
+		B4C0F54D2AD1C1AE00293042 /* UIView+JFSnapShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+JFSnapShot.swift"; sourceTree = "<group>"; };
 		CF88B6A3DB7B866CC5850121 /* Pods-JRBaseKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRBaseKitTests.release.xcconfig"; path = "Target Support Files/Pods-JRBaseKitTests/Pods-JRBaseKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		E22C739234865F132E2121A1 /* Pods-JRBaseKit-JRBaseKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRBaseKit-JRBaseKitUITests.release.xcconfig"; path = "Target Support Files/Pods-JRBaseKit-JRBaseKitUITests/Pods-JRBaseKit-JRBaseKitUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EEB23DD17D81A0E46AF55C07 /* Pods_JRBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +133,7 @@
 			children = (
 				B420C87E2AA3BA7F002216FA /* UIColor+Extension.swift */,
 				B420C87F2AA3BA7F002216FA /* UIView+JFRect.swift */,
+				B4C0F54D2AD1C1AE00293042 /* UIView+JFSnapShot.swift */,
 				B420C8802AA3BA7F002216FA /* UIImage+JFColor.swift */,
 				B420C8812AA3BA7F002216FA /* JF.swift */,
 				B420C8822AA3BA7F002216FA /* Size+Extenison.swift */,
@@ -402,6 +405,7 @@
 				B420C8872AA3BA7F002216FA /* Size+Extenison.swift in Sources */,
 				B429B71F27104F3600D407EE /* AppDelegate.swift in Sources */,
 				B420C8852AA3BA7F002216FA /* UIImage+JFColor.swift in Sources */,
+				B4C0F54E2AD1C1AE00293042 /* UIView+JFSnapShot.swift in Sources */,
 				B420C8862AA3BA7F002216FA /* JF.swift in Sources */,
 				B429B72127104F3600D407EE /* SceneDelegate.swift in Sources */,
 				B420C8832AA3BA7F002216FA /* UIColor+Extension.swift in Sources */,
